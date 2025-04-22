@@ -18,11 +18,7 @@ This Minesweeper game on a square grid. The game is played in the console and is
 
 ## Step-by-Step Instructions
 
-### 1. Unzip the Project
-
-1. Extract the zipped project to a location of your choice.
-
-### 2. Import Project into Eclipse
+### 1. Import Project into Eclipse
 
 1. Open **Eclipse IDE**.
 2. Navigate to **File** -> **Import**.
@@ -30,20 +26,20 @@ This Minesweeper game on a square grid. The game is played in the console and is
 4. Browse to the folder where you extracted the project and select it.
 5. Click **Finish** to import the project into Eclipse.
 
-### 3. Install Required Dependencies
+### 2. Install Required Dependencies
 
 The project uses Maven for dependency management. Eclipse should automatically download the required dependencies. If not:
 
 1. Right-click on the project in the **Project Explorer**.
 2. Select **Maven** -> **Update Project**.
 
-### 4. Running the Project
+### 3. Running the Project
 
 1. Inside Eclipse, locate the `Main.java` file under `src/main/java/com/leekaisheng/minesweeper/Main.java`.
 2. Right-click on `Main.java` and select **Run As** -> **Java Application**.
 3. The game will start, and you’ll be prompted to enter the size of the board and the number of mines.
 
-### 5. Game Instructions
+### 4. Game Instructions
 
 - Once the game starts, you will be asked to input the size of the grid (between 2 and 26).
 - You will then specify the number of mines (between 1 and 35% of the grid size).
@@ -51,7 +47,7 @@ The project uses Maven for dependency management. Eclipse should automatically d
 - If you hit a mine, the game ends, and you will be informed that you lost.
 - If you reveal all non-mine cells, you will win the game.
 
-### 6. Running Tests
+### 5. Running Tests
 
 The project includes unit tests for the core classes (`Board`, `Cell`, and `MineSweeperGame`) located in `src/test/java`.
 To run tests:
